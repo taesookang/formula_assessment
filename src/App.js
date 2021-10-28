@@ -1,16 +1,20 @@
-import LogoIcon from './components/LogoIcon'
-import './App.css';
+import LogoIcon from "./components/LogoIcon";
+import "./App.css";
+import Card from "./components/Card";
+import Content from './components/Content'
 
 function App() {
   return (
     <div className="App">
-      
       <header className="App-header">
         <LogoIcon />
         <h1>Dev Labs</h1>
       </header>
-      <div style={{marginTop: '2em'}}>
-        <p><em>Implement your solution here...</em></p>
+      <div className="App-main">
+      <Card>
+        <Content/>
+      </Card>
+
       </div>
     </div>
   );
