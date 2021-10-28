@@ -16,3 +16,10 @@
   align-self:center; 
   margin-left:1em;
 }
+
+.App-main {
+  height: calc(100vh - 59px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
